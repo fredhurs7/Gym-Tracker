@@ -32,11 +32,11 @@ struct ContentView: View {
         GridCell(name: "Deadlift"),
         GridCell(name: "Pull-Ups")
     ]
-    @State private var newCellName = ""
+    @State private var newCellName = " "
     var body: some View {
         
         TabView(){
-        
+         
             ZStack{
                 VStack {
                            HStack {
